@@ -1,0 +1,126 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:rgb(241, 186, 186);
+    margin: 20px;
+}
+
+h1{
+    color :brown;
+    text-align: center;
+}
+
+nav{
+    background-color: aquamarine;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav a {
+    color: rgb(2, 0, 0);
+    text-decoration:none;
+    margin-right:20px;
+    font-size: 18px;
+    font-weight: bold;
+    
+   
+}
+
+nav a:hover{
+    color:rgb(255, 30, 0)
+}
+h2{
+    color: brown;
+    text-align: center;
+}
+
+
+
+
+
+button{
+    background-color: aquamarine;
+    colour:white;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: darkcyan;
+}
+
+table{
+    width: 60%;
+    border-collapse: collapse;
+    margin: top 20px;
+}
+
+th{
+    background-color: aqua;
+    color:rgb(3, 43, 78);
+}
+
+th,
+td{
+    padding: 10px;
+    border:0.5px solid rgb(216, 205, 205);
+    text-align:center;
+
+}
+
+input{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+footer{
+    margin-top:20px;
+    text-align:center;
+    color:gray;
+}
+
+.profile{
+    background-color: rgb(150, 220, 161);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.details p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills{
+    text-align:justify;
+    font-size: 18px;
+
+
+}
+
+.skills h3 {
+    font-size: 30px;
+}
+
+.bio{
+    font-size: 19;
+    font-style: italic;
+}
+
+#title{
+    color: brown;
+}
+
+.profile_pic{
+    width:300px;
+    border: 30pX;
+    border-color: blue;
+}
